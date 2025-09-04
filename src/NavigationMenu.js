@@ -7,6 +7,7 @@ import home from './assets/images/home.svg';
 import logout from './assets/images/logout.svg';
 import logo from './assets/images/nomadic-nest_logo.svg';
 import { NavLink } from 'react-router-dom';
+import { Pen } from 'lucide-react';
 
 function NavigationMenu() {
     return (
@@ -44,8 +45,8 @@ function NavigationMenu() {
                     </div>
                 </li>
                 <li className='p-4 cursor-pointer flex'>
-                    <img src={favourites} alt="favourites icon" className='mr-2' />
-                    Notifications
+                    <Pen className='mr-2' size={16}/>
+                    Write a review
                 </li>
                 <li className='p-4 cursor-pointer'>
                     <NavLink to="/userProfile" className='flex'>
