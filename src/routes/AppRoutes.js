@@ -2,12 +2,13 @@ import React, { lazy } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 
 // Lazy-loaded components for better performance
-const UserProfile = lazy(() => import("../userprofile"));
-const Dashboard = lazy(() => import("../Dashboard"));
-const Destination = lazy(() => import("../Destination"));
-const TripDetails = lazy(() => import("../TripDetails"));
-const Trips = lazy(() => import("../Trips"));
-const Explore = lazy(() => import("../Explore"))
+const UserProfile = lazy(() => import("../features/profile/components/userprofile"));
+const Dashboard = lazy(() => import("../features/dashboard/components/Dashboard"));
+const Destination = lazy(() => import("../features/dashboard/components/Destination"));
+const TripDetails = lazy(() => import("../features/trips/components/TripDetails"));
+const Trips = lazy(() => import("../features/trips/components/Trips"));
+const Explore = lazy(() => import("../features/explore"));
+const Hotels = lazy(() => import("../features/hotels"));
 
 const AppRoutes = () => {
     return (
@@ -19,6 +20,7 @@ const AppRoutes = () => {
             <Route path="/tripDetails/:id" element={<TripDetails />} />
             <Route path="/trips" element={<Trips />} />
             <Route path="/explore" element={<Explore />} />
+            <Route path="/hotels" element={<Hotels />} />
             <Route path="*" element={<Dashboard />} />
         </Routes>
     )

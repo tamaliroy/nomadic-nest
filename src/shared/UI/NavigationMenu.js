@@ -1,11 +1,10 @@
 import React from 'react';
-import ticket from './assets/images/tickets.svg';
-import favourites from './assets/images/favourites.svg';
-import messages from './assets/images/messages.svg';
-import settings from './assets/images/settings.svg';
-import home from './assets/images/home.svg';
-import logout from './assets/images/logout.svg';
-import logo from './assets/images/nomadic-nest_logo.svg';
+import ticket from '../../assets/images/tickets.svg';
+import favourites from '../../assets/images/favourites.svg';
+import messages from '../../assets/images/messages.svg';
+import settings from '../../assets/images/settings.svg';
+import home from '../../assets/images/home.svg';
+import logout from '../../assets/images/logout.svg';
 import { NavLink } from 'react-router-dom';
 import { Pen } from 'lucide-react';
 
@@ -52,6 +51,12 @@ function NavigationMenu() {
                     <NavLink to="/userProfile" className='flex'>
                         <img src={settings} alt="settings icon" className='mr-2' />
                         My Profile
+                    </NavLink>
+                </li>
+                <li className='p-4 cursor-pointer'>
+                    <NavLink to="/hotels" className='flex'>
+                        <img src={settings} alt="settings icon" className='mr-2' />
+                        Hotels
                     </NavLink>
                 </li>
                 <li className='p-4 cursor-pointer absolute bottom-0'>

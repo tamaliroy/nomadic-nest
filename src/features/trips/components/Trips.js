@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
-import addIcon from './assets/images/add.svg';
-import aiIcon from './assets/images/AI-icon.svg';
-import locationIcon from './assets/images/location-black.svg';
-import tripImage from './assets/images/amalfi-coast.jpeg';
-import calendarIcon from './assets/images/calendar.svg';
-import menu from './assets/images/menu.svg';
+import addIcon from '../../../assets/images/add.svg';
+import aiIcon from '../../../assets/images/AI-icon.svg';
+import locationIcon from '../../../assets/images/location-black.svg';
+import tripImage from '../../../assets/images/amalfi-coast.jpeg';
+import calendarIcon from '../../../assets/images/calendar.svg';
+import menu from '../../../assets/images/menu.svg';
 import { useNavigate } from 'react-router-dom';
 
 const Trips = () => {

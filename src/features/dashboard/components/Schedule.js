@@ -1,18 +1,12 @@
-import { Fragment, useState } from "react";
-import chevronDown from './assets/images/chevron-down.svg';
-import chevronUp from './assets/images/chevron-up.svg';
-import expand from './assets/images/expand.svg';
-// import trip1 from './assets/images/forest.jpeg';
-// import trip2 from './assets/images/forest-1.jpeg';
-// import trip3 from './assets/images/forest 2.jpeg';
-import calendar from './assets/images/calendar.svg';
-import avatar from './assets/images/avatar.svg';
-import Calendar from "react-calendar";
+import { useState } from "react";
+import chevronDown from '../../../assets/images/chevron-down.svg';
+import chevronUp from '../../../assets/images/chevron-up.svg';
+import expand from '../../../assets/images/expand.svg';
+import avatar from '../../../assets/images/avatar.svg';
 import 'react-calendar/dist/Calendar.css';
-import './Calendar.css';
-import trip2 from './assets/images/amalfi-coast.jpeg';
+import trip2 from '../../../assets/images/amalfi-coast.jpeg';
 import { NavLink, useNavigate } from "react-router-dom";
-import './Timeline.css';
+import '../styles/Timeline.css';
 
 function Schedule() {
     const [ schedule, setSchedule ] = useState([

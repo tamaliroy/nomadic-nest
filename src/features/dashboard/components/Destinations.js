@@ -1,18 +1,17 @@
-import searchIcon from './assets/images/search.svg';
-import bellIcon from './assets/images/bell.svg';
+import searchIcon from '../../../assets/images/search.svg';
+import bellIcon from '../../../assets/images/bell.svg';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import DestinationCard from './DestinationCard';
+import DestinationCard from '../../../shared/common/DestinationCard';
 import BestDestinationcard from './BestDestinationCard';
-import forest from './assets/images/forest.jpeg';
-import forest1 from './assets/images/forest-1.jpeg';
-import forest2 from './assets/images/forest 2.jpeg';
-import location1 from './assets/images/location1.jpeg';
-import location2 from './assets/images/location2.jpeg';
-import mountFuji from './assets/images/mountFuji.jpeg';
-import rightArrow from './assets/images/right-arrow.svg';
-import cloud from './assets/images/cloud-drizzle.svg';
-import { HorizontalScroll } from './destinationCard.styles';
+import forest from '../../../assets/images/forest.jpeg';
+import forest1 from '../../../assets/images/forest-1.jpeg';
+import forest2 from '../../../assets/images/forest 2.jpeg';
+import location1 from '../../../assets/images/location1.jpeg';
+import location2 from '../../../assets/images/location2.jpeg';
+import mountFuji from '../../../assets/images/mountFuji.jpeg';
+import rightArrow from '../../../assets/images/right-arrow.svg';
+import { HorizontalScroll } from '../../../shared/common/destinationCard.styles';
 
 function Destinations() {
     const mockDestinations = [

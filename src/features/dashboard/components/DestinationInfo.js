@@ -1,7 +1,7 @@
-import locationicon from './assets/images/location.svg';
-import locationFilledIcon from './assets/images/location-filled.svg';
-import starIcon from './assets/images/star.svg';
-import starFilled from './assets/images/star-filled.svg';
+import locationicon from '../../../assets/images/location.svg';
+import locationFilledIcon from '../../../assets/images/location-filled.svg';
+import starIcon from '../../../assets/images/star.svg';
+import starFilled from '../../../assets/images/star-filled.svg';
 
 const DestinationInfo = ({destination, absolute = false}) => {
     return (

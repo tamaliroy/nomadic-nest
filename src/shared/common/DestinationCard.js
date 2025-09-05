@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
-import heart from './assets/images/heart.svg';
-import heartHover from './assets/images/heart-hover.svg';
+import heart from '../../assets/images/heart.svg';
+import heartHover from '../../assets/images/heart-hover.svg';
 import { Card } from './destinationCard.styles';
-import DestinationInfo from './DestinationInfo';
+import DestinationInfo from '../../features/dashboard/components/DestinationInfo';
 
 function DestinationCard({destination, onFavourite, onViewDetails, showInside}) {
     const [ isHovered, setIsHovered ] = useState();

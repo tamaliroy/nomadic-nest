@@ -1,5 +1,5 @@
-import locationicon from './assets/images/location-black.svg';
-import starIcon from './assets/images/star-black.svg';
+import locationicon from '../../../assets/images/location-black.svg';
+import starIcon from '../../../assets/images/star-black.svg';
 
 function BestDestinationcard({destination}) {
     return (

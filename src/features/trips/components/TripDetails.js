@@ -1,6 +1,4 @@
-import location from './assets/images/location-black.svg';
-import tripDetails from './mocks/tripsDetailsMock';
-import abc from './assets/images/amalfi-coast.jpeg';
+import tripDetails from '../../../mocks/tripsDetailsMock';
 
 function TripDetails() {
     console.log('tripDetails', tripDetails);

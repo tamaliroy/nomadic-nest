@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { Title, FlexContainer, SubTitle, GridContainer } from "./explore.styles";
-import DestinationCard from "./DestinationCard";
-import location1 from './assets/images/location1.jpeg';
-import location2 from './assets/images/location2.jpeg';
-import mountFuji from './assets/images/mountFuji.jpeg';
+import { Title, FlexContainer, SubTitle, GridContainer } from "../styles/explore.styles";
+import DestinationCard from "../../../shared/common/DestinationCard";
+import location1 from '../../../assets/images/location1.jpeg';
+import location2 from '../../../assets/images/location2.jpeg';
+import mountFuji from '../../../assets/images/mountFuji.jpeg';
 import { useNavigate } from "react-router";
 
 const Explore = () => {
