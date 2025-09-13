@@ -158,8 +158,7 @@ function Destinations() {
                     <div className={`p-2 text-base text-[#757070] cursor-pointer ${selectedMenu === 'bestPrice' ? 'selected' : ''}`} onClick={() => handleMenuChange('bestPrice')}>Best Price</div>
                     <div className={`p-2 text-base text-[#757070] cursor-pointer ${selectedMenu === 'nearMe' ? 'selected' : ''}`} onClick={() => handleMenuChange('nearMe')}>Near Me</div>
                 </div>
-                <div className='text-sm flex text-[#757070] items-center cursor-pointer' onClick={navigateToExplore}>See All
-                    <img src={rightArrow} alt="right-arrow" className='w-[24px] ml-2'/>
+                <div className='text-sm flex text-[#1d8783] font-bold items-center cursor-pointer' onClick={navigateToExplore}>See All
                 </div>
             </div>
             <HorizontalScroll className='flex gap-4'>
